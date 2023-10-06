@@ -18,7 +18,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nginx:mainline-alpine3.18-slim
+      - image: 583463116790.dkr.ecr.ap-south-1.amazonaws.com/iv-argocd-test:79657e3
         name: guestbook-ui
         ports:
         - containerPort: 80
